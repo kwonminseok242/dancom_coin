@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: "Pretendard", sans-serif;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+  }
+  
+  header {
+    background: #111;
+    color: #ff6600;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #222;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: calc(100vh - 70px);
+  }
+  
+  #chart-area {
+    padding: 20px;
+    background: #1a1a1a;
+  }
+  
+  #side-panel {
+    background: #111;
+    padding: 20px;
+    border-left: 1px solid #222;
+    overflow-y: auto;
+  }
+  
+  .card {
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(255, 102, 0, 0.2);
+  }
+  
+  button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #ff8533;
+  }
+  #chart-area canvas {
+    background: radial-gradient(circle at top left, #1b1b1b, #0d0d0d);
+    border-radius: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.25);
+  }
+  
+  button {
+    transition: all 0.2s;
+  }
+  button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 8px rgba(255, 102, 0, 0.4);
+  }
+
+  #live-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff6600;
+    margin-left: 2rem;
+  }
+  
+  #trade-log {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: 0.9rem;
+  }
+  
+  #trade-log li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    border-bottom: 1px solid #222;
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "name": "sfiat-poc",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "build": "hardhat compile",
+        "deploy:local": "hardhat run scripts/1_deploy.ts",
+        "deploy:sepolia": "hardhat run --network sepolia scripts/1_deploy.ts",
+        "setup": "hardhat run --network sepolia scripts/2_setup.ts",
+        "mint": "hardhat run --network sepolia scripts/3_mint_example.ts",
+        "redeem": "hardhat run --network sepolia scripts/4_redeem_flow.ts"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "dotenv": "^16.4.0",
+        "hardhat": "^2.22.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.0"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "4.9.6",
+        "cors": "^2.8.5",
+        "ethers": "^6.15.0",
+        "express": "^5.1.0",
+        "morgan": "^1.10.1"
+    }
+}

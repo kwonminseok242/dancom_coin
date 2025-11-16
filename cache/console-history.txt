@@ -1,0 +1,86 @@
+}
+  });
+    txHash: log.transactionHash
+    blockNumber: log.blockNumber,
+    amount: log.args.value.toString(),
+    to: log.args.to,
+    from: log.args.from,
+  console.log({
+for (let log of transfers) {
+const transfers = await SimFiat.queryFilter("Transfer", 0, "latest");
+}
+  });
+    txHash: log.transactionHash,
+    blockNumber: log.blockNumber,
+    meta: log.args.meta,
+    amount: log.args.amount.toString(),
+    to: log.args.to,
+  console.log({
+for (let log of mintLogs) {
+const mintLogs = await SimFiat.queryFilter("Minted", 0, "latest");
+... }
+...   });
+...     txHash: log.transactionHash,
+...     blockNumber: log.blockNumber,
+...     meta: log.args.meta,
+...     amount: log.args.amount.toString(),
+...     to: log.args.to,
+...   console.log({
+for (let log of mintLogs) {
+}
+  });
+    txHash: log.transactionHash,
+    blockNumber: log.blockNumber,
+    meta: log.args.meta,
+    amount: log.args.amount.toString(),
+    to: log.args.to,
+  console.log({
+for (let log of mintLogs) {
+const mintLogs = await SimFiat.queryFilter("Minted", 0, "latest");
+const logs = await SimFiat.queryFilter("Minted", 0, "latest");
+}
+  });
+    txHash: log.transactionHash,
+    blockNumber: log.blockNumber,
+    meta: log.args.meta,
+    amount: log.args.amount.toString(),
+    to: log.args.to,
+  console.log({
+for (let log of logs) {
+const logs = await SimFiat.queryFilter("Minted", 0, "latest");
+}
+  });
+    txHash: log.transactionHash,
+    blockNumber: log.blockNumber,
+    meta: log.args.meta,
+    amount: log.args.amount.toString(),
+    to: log.args.to,
+  console.log({
+for (let log of logs) {
+const logs = await SimFiat.queryFilter("Minted", latest - 100, "latest");
+console.log("현재 블록:", latest);
+const latest = await ethers.provider.getBlockNumber();
+const SimFiat = await ethers.getContractAt("SimFiatStable", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await SimFiat.allowed("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+await SimFiat.setAllowed("0x70997970C51812dc3A010C7d01b50e0d17dc79C8", true);
+SimFiat.interface.fragments.map(f => f.name)
+> SimFiat.interface.fragments.map(f => f.name)
+> 
+    at REPL6:1:47
+Uncaught TypeError: SimFiat.allowedRecipients is not a function
+> await SimFiat.allowedRecipients("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+    at REPL4:1:47
+Uncaught TypeError: SimFiat.allowRecipient is not a function
+> await SimFiat.allowRecipient("0x70997970C51812dc3A010C7d01b50e0d17dc79C8", true);
+undefined
+> const SimFiat = await ethers.getContractAt("SimFiatStable", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+Type ".help" for more information.
+Welcome to Node.js v20.19.5.
+npx hardhat console --network localhost
+await SimFiat.allowedRecipients("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+await SimFiat.allowRecipient("0x70997970C51812dc3A010C7d01b50e0d17dc79C8", true);
+const SimFiat = await ethers.getContractAt("SimFiatStable", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await Token.balanceOf("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+const Token = await ethers.getContractAt("SimFiatStable", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await Token.balanceOf("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+const Token = await ethers.getContractAt("Token", "0x5FbDB2315678afecb367f032d93F642f64180aa3");

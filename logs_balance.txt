@@ -1,0 +1,1 @@
+{"ok":false,"error":"Error: could not decode result data (value=\"0x\", info={ \"method\": \"balanceOf\", \"signature\": \"balanceOf(address)\" }, code=BAD_DATA, version=6.15.0)"}
