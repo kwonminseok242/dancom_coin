@@ -2,49 +2,11 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
+    <title>Koscom KRW365 Stablecoin Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Koscom sFIAT Dashboard</title>
-    <link rel="stylesheet" href="src/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
-
   <body>
-    <div id="app">
-      <header>
-        <h1>🟧 Koscom KRW365 Dashboard</h1>
-        <span id="network-status">⏳ 연결 중...</span>
-      </header>
-
-      <main class="grid">
-        <!-- 차트 영역 -->
-        <section id="chart-area">
-          <canvas id="priceChart"></canvas>
-        </section>
-
-        <!-- 사이드 정보 -->
-        <aside id="side-panel">
-          <div class="card">
-            <h3>노드 상태</h3>
-            <p>RPC: <span id="rpc-url">-</span></p>
-            <p>Chain ID: <span id="chain-id">-</span></p>
-            <p>Backend: <span id="backend-address">-</span></p>
-          </div>
-
-          <div class="card">
-            <h3>토큰 잔액</h3>
-            <p>주소: <span id="user-address">0x70997970C51812dc3A010C7d01b50e0d17dc79C8</span></p>
-            <p>잔액: <span id="user-balance">0.00 sKRW</span></p>
-            <button id="refresh-balance">🔄 잔액 새로고침</button>
-          </div>
-
-          <div class="card">
-            <h3>트랜잭션</h3>
-            <ul id="tx-log"></ul>
-          </div>
-        </aside>
-      </main>
-    </div>
-
-    <script src="src/app.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

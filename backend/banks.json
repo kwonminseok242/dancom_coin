@@ -1,0 +1,17 @@
+{
+  "shinhan": {
+    "id": "shinhan",
+    "name": "신한은행",
+    "balance": 100000
+  },
+  "kb": {
+    "id": "kb",
+    "name": "국민은행",
+    "balance": 120000
+  },
+  "hana": {
+    "id": "hana",
+    "name": "하나은행",
+    "balance": 108000
+  }
+}
